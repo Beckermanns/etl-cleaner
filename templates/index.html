@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpiador de Datos Pro</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <h1>🧹 Limpiador de Archivos CSV</h1>
+        <p>Sube tu archivo desordenado y te lo devolvemos limpio y estandarizado.</p>
+
+        <article>
+            <header>Subir Archivo</header>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="file">Selecciona tu archivo CSV o Excel:</label>
+                <input type="file" id="file" name="file" required>
+                <button type="submit">Procesar y Limpiar</button>
+            </form>
+        </article>
+        
+        <footer>
+            <small>Creado para portafolio - V0.1</small>
+        </footer>
+    </main>
+</body>
+</html>
